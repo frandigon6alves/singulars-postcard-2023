@@ -17,13 +17,38 @@ main {
  width: 100%;
  margin: 0 auto;
  overflow: auto;
+
 }
 
+h1 {
+    padding-left: 10px;
+    display: inline-block;
+    width: 85%;
+  }
+
 img {
-    float: right;
+    width: 10%;
+    height: auto;
+    display: inline-block;
+
     
 }
-.h1 {
-  float: left;
-  padding-left: 10px;
+
+.texto {
+    display: inline-block;
+   
+    max-width: 50%;
+
+}
+
+.inputs {
+    
+    display: inline-block;
+    max-width: 50%;
+
+}
+
+.button {
+  margin: 0 auto;
+  justify-content: center;
 }

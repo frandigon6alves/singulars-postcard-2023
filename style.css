@@ -1,54 +1,55 @@
 body {
   background-color: black;
+  font-family: 'Handlee', cursive;
 }
 
-main {
+.titulo img{
+  float: right;
+  width: 60px;
+  position: relative;
+
+}
+
+.post{
   background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 150px auto;
+  width: 500px;
+  padding: 10px;
+  height: 350px;
+}
+
+.texto{
+  font-size: 20px;
+  float:left;
+  width:50%;
+}
+
+.formulario{
+  margin-top:5%;
+  float: right;
   width: 50%;
 }
 
-.header {
- width: 100%;
- margin: 0 auto;
- overflow: auto;
-
+.formulario input[type=text]{
+  font-family: 'Handlee', cursive; 
+  border: none;
+  color: gray;
+  padding: 5px;
 }
 
-h1 {
-    padding-left: 10px;
-    display: inline-block;
-    width: 85%;
-  }
-
-img {
-    width: 10%;
-    height: auto;
-    display: inline-block;
-
-    
+input {
+  font-size: 20px;
 }
-
-.texto {
-    display: inline-block;
-   
-    max-width: 50%;
-
-}
-
-.inputs {
-    
-    display: inline-block;
-    max-width: 50%;
-
-}
-
-.button {
-  margin: 0 auto;
+footer{
+  display: flex;
   justify-content: center;
+  clear:both;
+  
+}
+
+footer input[type=submit]{
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color:darkgray;
+  font-family: 'Handlee', cursive;
 }
